@@ -62,12 +62,5 @@ curl http://localhost:8080/api/hello \
 mvn test
 ```
 
-## 提交到 GitHub
 
-```bash
-git init
-git add .
-git commit -m "feat: spring boot 3.2 hello world api with jwt auth"
-git remote add origin https://github.com/<你的用户名>/hello-spring-security.git
-git push -u origin main
 ```
