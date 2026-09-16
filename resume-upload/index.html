@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upload Your Resume</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <!-- 左栏：文案 + 插画 -->
+    <section class="intro">
+      <h1 class="intro__title">Finish!</h1>
+      <h2 class="intro__subtitle">Upload Your Resume</h2>
+      <p class="intro__desc">
+        Upload your resume, the platform will help you parse and optimize,
+        you can continue to improve in this step
+      </p>
+      <img class="intro__illustration" src="cat.svg" alt="A cat illustration" />
+    </section>
+
+    <!-- 右栏：上传卡片 -->
+    <section class="upload-card">
+      <div id="uploadView">
+        <h2 class="upload-card__title">Upload file</h2>
+
+        <div
+          class="dropzone"
+          id="dropzone"
+          role="button"
+          tabindex="0"
+          aria-label="Upload resume file"
+        >
+          <svg class="dropzone__icon" viewBox="0 0 24 24" width="48" height="48" aria-hidden="true">
+            <path fill="#2E5BFF" d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM13 13v4h-2v-4H8l4-4 4 4h-3z"/>
+          </svg>
+          <p class="dropzone__hint">
+            Drag your resume file to this area, or click on the area to select
+            the appropriate file to upload
+          </p>
+          <p class="dropzone__filename" id="filename" hidden></p>
+          <p class="dropzone__error" id="dropError" hidden>
+            Please select your resume file first
+          </p>
+        </div>
+        <input type="file" id="fileInput" accept=".pdf,.doc,.docx" hidden />
+
+        <div class="upload-card__actions">
+          <button type="button" class="btn btn--secondary">Last step</button>
+          <button type="button" class="btn btn--primary" id="finishBtn">Finish</button>
+        </div>
+
+        <!-- 步骤指示器 -->
+        <ol class="stepper" aria-label="Progress">
+          <li class="stepper__item"><span class="stepper__dot"></span></li>
+          <li class="stepper__item"><span class="stepper__dot"></span></li>
+          <li class="stepper__item"><span class="stepper__dot"></span></li>
+        </ol>
+      </div>
+
+      <!-- 提交成功视图 -->
+      <div class="upload-card__success" id="successView" hidden>
+        <div class="success__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="40" height="40">
+            <path d="M5 12.5 10 17.5 19 7.5" fill="none" stroke="currentColor"
+                  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h2 class="success__title">Resume submitted!</h2>
+        <p class="success__desc">Your application is complete. We'll keep you posted.</p>
+        <button type="button" class="btn btn--ghost" id="uploadAnother">
+          Upload another file
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

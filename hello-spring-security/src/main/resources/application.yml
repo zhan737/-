@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: hello-spring-security
+
+server:
+  port: 8080
+
+jwt:
+  # Demo secret for HS256 (>= 32 bytes). Replace in production.
+  secret: demo-jwt-secret-key-for-helloworld-api-please-change-in-production
+  expiration-ms: 3600000 # 1 hour

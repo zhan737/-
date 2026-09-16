@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 430" fill="none">
+  <!-- 羽毛 / 叶子 -->
+  <path d="M448 28 C 398 92, 394 182, 430 262 C 464 192, 478 100, 448 28 Z"
+        fill="#EDF0F4" stroke="#2E3A4E" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M438 74 C 428 134, 428 194, 438 244" stroke="#C7CFDA" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 手机 -->
+  <rect x="252" y="64" width="164" height="330" rx="26" fill="#FFFFFF"
+        stroke="#2E3A4E" stroke-width="4"/>
+  <rect x="272" y="98" width="124" height="9" rx="4.5" fill="#E4E9F0"/>
+  <rect x="272" y="122" width="92" height="9" rx="4.5" fill="#E4E9F0"/>
+
+  <!-- 白色气泡 + 四个圆点 -->
+  <path d="M296 94 L 286 124 L 322 100 Z" fill="#FFFFFF" stroke="#2E3A4E"
+        stroke-width="3.5" stroke-linejoin="round"/>
+  <rect x="118" y="26" width="196" height="74" rx="16" fill="#FFFFFF"
+        stroke="#2E3A4E" stroke-width="3.5"/>
+  <circle cx="156" cy="63" r="7" stroke="#2E3A4E" stroke-width="3"/>
+  <circle cx="187" cy="63" r="7" stroke="#2E3A4E" stroke-width="3"/>
+  <circle cx="218" cy="63" r="7" stroke="#2E3A4E" stroke-width="3"/>
+  <circle cx="249" cy="63" r="7" stroke="#2E3A4E" stroke-width="3"/>
+
+  <!-- 深色气泡 + 三个白点 -->
+  <path d="M354 214 L 344 242 L 380 218 Z" fill="#3A4457"/>
+  <rect x="336" y="158" width="142" height="60" rx="14" fill="#3A4457"/>
+  <circle cx="376" cy="188" r="6" fill="#FFFFFF"/>
+  <circle cx="405" cy="188" r="6" fill="#FFFFFF"/>
+  <circle cx="434" cy="188" r="6" fill="#FFFFFF"/>
+
+  <!-- 猫：尾巴 -->
+  <path d="M170 396 C 104 402, 80 352, 106 318 C 122 298, 148 302, 154 322"
+        stroke="#2E3A4E" stroke-width="22" stroke-linecap="round"/>
+  <path d="M170 396 C 104 402, 80 352, 106 318 C 122 298, 148 302, 154 322"
+        stroke="#4A7DF0" stroke-width="13" stroke-linecap="round"/>
+
+  <!-- 猫：耳朵 -->
+  <path d="M204 260 L 214 204 L 244 244 Z" fill="#4A7DF0" stroke="#2E3A4E"
+        stroke-width="4" stroke-linejoin="round"/>
+  <path d="M276 260 L 266 204 L 236 244 Z" fill="#4A7DF0" stroke="#2E3A4E"
+        stroke-width="4" stroke-linejoin="round"/>
+
+  <!-- 猫：身体 -->
+  <path d="M162 420 C 158 350, 196 318, 240 318 C 294 318, 332 356, 328 420 Z"
+        fill="#4A7DF0" stroke="#2E3A4E" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="246" cy="392" rx="56" ry="32" fill="#FFFFFF"/>
+  <path d="M300 336 C 316 344, 322 356, 324 368" stroke="#FFFFFF" stroke-width="14"
+        stroke-linecap="round"/>
+
+  <!-- 猫：头 -->
+  <circle cx="240" cy="286" r="52" fill="#4A7DF0" stroke="#2E3A4E" stroke-width="4"/>
+  <ellipse cx="240" cy="306" rx="32" ry="22" fill="#FFFFFF"/>
+  <circle cx="222" cy="282" r="4.5" fill="#2E3A4E"/>
+  <circle cx="258" cy="282" r="4.5" fill="#2E3A4E"/>
+  <path d="M234 294 L 246 294 L 240 302 Z" fill="#2E3A4E"/>
+  <path d="M206 300 L 186 294 M206 310 L 187 312 M274 300 L 294 294 M274 310 L 293 312"
+        stroke="#2E3A4E" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- 猫：前爪 -->
+  <ellipse cx="212" cy="418" rx="24" ry="10" fill="#FFFFFF" stroke="#2E3A4E" stroke-width="3"/>
+  <ellipse cx="284" cy="418" rx="24" ry="10" fill="#FFFFFF" stroke="#2E3A4E" stroke-width="3"/>
+</svg>
